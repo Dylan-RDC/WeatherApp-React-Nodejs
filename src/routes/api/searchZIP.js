@@ -1,5 +1,6 @@
+require('dotenv').config()
 const fetch = require('node-fetch');
-const ZipKey = 'a5874316077a11944ad3fc46576c6e9f';
+const ZipKey = process.env.WEATHER_API_KEY;
 const express = require('express');
 module.exports = (app) => {
     let zip,units,country;

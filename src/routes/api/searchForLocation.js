@@ -1,6 +1,6 @@
-
+require('dotenv').config()
 const fetch = require('node-fetch');
-const locationKey = "edd70fd1f4c64a2eb948dddf1937ea0a";
+const locationKey = process.env.LOCATION_API_KEY;
 
 module.exports = (app) => {//api used to get the location from the user's PC and provide a zip/postcode
     app.get('/current-location/:lat/:long',(req,res)=>{
