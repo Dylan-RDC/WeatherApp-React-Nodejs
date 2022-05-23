@@ -1,0 +1,52 @@
+header {
+    padding: 25px;
+  }
+
+  
+ #main-logo {
+  width: 100px;
+  float:left;
+  vertical-align: middle;
+}
+
+
+.App-header {
+    display: flex;
+    margin: auto;
+    min-height: 200px;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .headingOne {
+    float:right;
+    padding-left: 130px;
+  }
+.testA{
+  animation: introOne 5s ;
+  display: inline-block;
+  opacity:0;
+  animation-fill-mode:both;
+  animation-iteration-count:1;
+}
+@keyframes introOne{
+  0% {opacity:0; transform: translateX(-100px) skewY(0deg) skewX(0deg) rotateZ(0deg); filter:blur(10px) drop-shadow(16px 16px 20px rgb(59, 10, 219))}
+33% {opacity:1; transform: translateY(0) skewY(0deg) skewX(0deg) rotateZ(0deg); filter:blur(0px) drop-shadow(16px 16px 20px rgb(59, 10, 219))}
+66% {opacity:1; transform: translateY(0) skewY(0deg) skewX(0deg) rotateZ(0deg); filter:blur(0px) drop-shadow(16px 16px 20px rgb(59, 10, 219))}
+100% {opacity:1; transform: translateY(0px) skewY(0deg) skewX(0deg) rotateZ(0deg); filter: drop-shadow(16px 16px 20px rgb(59, 10, 219))}
+}
+.testB{
+  animation: introTwo 9s ;
+  display: inline-block;
+  opacity:0;
+  animation-fill-mode:both;
+  animation-iteration-count:1;
+}
+@keyframes introTwo{
+  0% {opacity:0; transform: translateX(-100px) skewY(0deg) skewX(0deg) rotateZ(0deg); filter: drop-shadow(16px 16px 20px rgb(59, 10, 219)) blur(10px) }
+33% {opacity:1; transform: translateY(0) skewY(0deg) skewX(0deg) rotateZ(0deg); filter: drop-shadow(16px 16px 20px rgb(59, 10, 219)) }
+66% {opacity:1; transform: translateY(0) skewY(0deg) skewX(0deg) rotateZ(0deg); filter: drop-shadow(16px 16px 20px rgb(59, 10, 219)) }
+100% {opacity:1; transform: translateY(0px) skewY(0deg) skewX(0deg) rotateZ(0deg); filter: drop-shadow(16px 16px 20px rgb(59, 10, 219)) }
+}

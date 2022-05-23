@@ -1,0 +1,108 @@
+
+.weather-banner form {
+    margin: auto;
+    display: block;
+    justify-content: center;
+  }
+
+.weather-banner form input {
+    color:white;
+    font-size: 1.5rem;
+    height: 20px;
+    padding: 5px 5px 10px;
+    border:none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    margin-left: 20px;
+  }
+
+  #countryCode {
+      width: 150px;
+  }
+
+  .weather-banner form input:focus {
+    font-size: 1.5rem;
+    height: 20px;
+    padding: 5px 5px 10px;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid #f52045;
+    background-color: transparent;
+    color: #f52045;
+  }
+   
+.weather-banner form input::placeholder {
+    color: currentColor; 
+  }
+   
+.weather-banner form button {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin-left: 15px;
+    border-radius: 3px;
+    border: none;
+    background: #f52045;
+    cursor: pointer;
+  }
+   
+
+.Radio {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    
+  }
+
+.RadioLabel {
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+    padding: 0.5em 2em;
+    border: 2px solid white;
+  }
+
+  .RadioLabel:hover {
+    cursor:pointer;
+    
+  }
+
+  input#fahrenheit:checked+label{
+      background-color: white;
+      color: black;
+      font-weight: 900;
+  }
+
+  input#celcius:checked+label{
+    background-color: white;
+    color: black;
+    font-weight: 900;
+}
+
+#cLabel {
+    border-radius: 0 25px 25px 0;
+}
+
+#fLabel {
+    border-radius: 25px 0 0 25px;
+}
+
+.radioButtons {
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.inputButton {
+    margin: auto;
+    text-align: center;
+}
+
+.headingTwo {
+    color:white;
+    padding-bottom: 20px;
+    text-align: center;
+}

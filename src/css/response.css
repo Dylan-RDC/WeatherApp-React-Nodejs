@@ -1,0 +1,89 @@
+.weatherCardContainer {
+    margin: auto;
+    text-align: center;
+    color:white;
+    font-size: 1.5rem;
+}
+
+#tryAgain, #returnBtn {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin-left: 15px;
+    border-radius: 3px;
+    border: none;
+    background: #f52045;
+    cursor: pointer;
+  }
+
+  .loading {
+    margin: auto;
+    text-align: center;
+    color:white;
+    font-size: 1.5rem;
+  }
+
+  .weatherContainer{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 3px;
+    box-shadow: 5px;
+  }
+
+  #currentTemp {
+      font-size: 40px;
+      font-weight: bolder;
+      padding: none;
+  }
+
+  .conditionDetails {
+      display: flex;
+      margin-bottom: 20px;
+  }
+
+  #cDetails {
+      margin: auto;
+      width: 100px;
+      text-align: center;
+  }
+
+  #wValues{
+      font-size: x-large;
+      font-weight: bold
+  }
+
+  #stateCity {
+      font-size: large;
+      color:#f52045;
+      text-transform: uppercase;
+  }
+
+  #description {
+      color: black;
+  }
+
+  #error-logo {
+    width: 100px;
+    vertical-align: middle;
+ }
+
+
+ .loadingIcon {
+    animation: spin 2.5s infinite;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ }
+
+/* Creating spin animation for Loading Icon*/
+ @keyframes spin { 
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

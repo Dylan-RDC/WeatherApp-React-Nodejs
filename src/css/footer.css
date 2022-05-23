@@ -1,0 +1,31 @@
+.Main-footer {
+  padding: 2px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: small;
+  text-align: center;
+  transition-duration: 1.5s;
+}
+
+.currentDate {
+  transition-duration: 1.5s;
+}
+
+.students {
+  color: white;
+  font-weight: bold;
+  transition-duration: 1.5s;
+}
+.Main-footer:hover{
+  background-color: rgb(132, 148, 172);
+}
+
+.Main-footer:hover .students{
+  color: black;
+}
+
+.Main-footer:hover .currentDate{
+  color: white;
+}
